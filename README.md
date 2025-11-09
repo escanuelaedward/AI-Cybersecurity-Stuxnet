@@ -59,4 +59,5 @@ python -m venv venv
 ## Install Dependencies
 python -m pip install numpy matplotlib scikit-learn
 
+## Run the demo
 python demo/demo_network_anomaly.py
