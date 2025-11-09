@@ -71,8 +71,13 @@ plt.tight_layout()
 
 # ensures the assets folder exists (fixing FileNotFoundError on save)
 from pathlib import Path
-Path("../assets").mkdir(parents=True, exist_ok=True)
 
-# save the image and open
-plt.savefig("../assets/step6_ai_detects.png") # saves image to assets folder
+# Resolve repo root based on this file's location:  .../AI-Cybersecurity-Stuxnet
+REPO_ROOT = Path(__file__).resolve().parents[1]
+out_path = REPO_ROOT / "assets" / "step6_ai_detects.png"
+
+# Make sure assets exists, then save
+out_path.parent.mkdir(parents=True, exist_ok=True)
+plt.savefig(out_path)
+print(f"Saved plot to: {out_path}")
 plt.show()
