@@ -31,7 +31,7 @@ AI learns what “normal” behavior looks like and flags activity that doesn’
 
 The chart below shows how the AI model detects the injected anomalies in the simulated network traffic:
 
-![AI Detection Demo](images/step6_ai_detects.png)
+![AI Detection Demo](assets/step6_ai_detects.png)
 
 ---
 
