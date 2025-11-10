@@ -80,3 +80,7 @@ pip install -r requirements.txt
 ```powershell
 python demo/demo_network_anomaly.py
 ```
+### Close out
+```powershell
+Deactivate
+```
