@@ -57,7 +57,11 @@ python -m venv venv
 .\venv\Scripts\Activate.ps1   # For Windows PowerShell
 ```
 ## Install Dependencies
+```bash
 python -m pip install numpy matplotlib scikit-learn
+```
 
 ## Run the demo
+```bash
 python demo/demo_network_anomaly.py
+```
