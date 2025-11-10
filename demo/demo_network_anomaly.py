@@ -81,7 +81,3 @@ out_path.parent.mkdir(parents=True, exist_ok=True)
 plt.savefig(out_path)
 print(f"Saved plot to: {out_path}")
 plt.show()
-
-# remove any partial rebase folders (safe for your commits)
-Remove-Item -Recurse -Force .git\rebase-merge -ErrorAction SilentlyContinue
-Remove-Item -Recurse -Force .git\rebase-apply -ErrorAction SilentlyContinue
