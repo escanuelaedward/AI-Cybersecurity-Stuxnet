@@ -9,7 +9,7 @@ This project demonstrates how Artificial Intelligence (AI) can detect unusual pa
 The demo simulates network traffic using Python and applies an AI model called an Isolation Forest to automatically detect suspicious behavior.
 
 **Core idea:**  
-AI learns what "normal" behavior looks like and flags activity that doesn’t fit the pattern—just like how anomaly detection systems help identify potential cyberattacks.
+AI learns what "normal" behavior looks like and flags activity that doesn’t fit the pattern, just like how anomaly detection systems help identify potential cyberattacks.
 
 ---
 
