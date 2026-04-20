@@ -27,6 +27,18 @@ AI learns what “normal” behavior looks like and flags activity that doesn’
 
 ---
 
+## Real-World Application
+Anomaly detection is widely used in cybersecurity to identify threats that do not match known attack signatures.
+
+This approach is similar to how security systems detect:
+- Zero-day attacks
+- Insider threats
+- Unusual network behavior
+
+While this project uses simulated data, the same concept applies to real-world network monitoring systems and intrusion detection tools.
+
+---
+
 ## Example Output
 
 The chart below shows how the AI model detects the injected anomalies in the simulated network traffic:
